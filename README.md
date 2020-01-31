@@ -2,11 +2,11 @@
 <br />
 <p align="center">
   <a href="https://github.com/PlutonusDev/OSINT-Suite">
-    <img src="images/osintsuite.png" alt="Logo">
+    <img src="https://github.com/PlutonusDev/OSINT-Suite/blob/master/misc/osintsuite.png" alt="Logo">
   </a>
   <h3 align="center">OSINT Suite</h3>
 
-  <p>
+  <p align="center">
 	<a href="https://github.com/PlutonusDev/OSINT-Suite/issues"><img src="https://img.shields.io/github/issues/PlutonusDev/OSINT-Suite.svg?style=flat-square" alt="Issues"></a>
 	<a href="https://github.com/PlutonusDev/OSINT-Suite/blob/master/LICENSE.md"><img src="https://img.shields.io/github/license/PlutonusDev/OSINT-Suite.svg?style=flat-square" alt="License"></a>
 	<a href="https://linkedin.com/in/PlutonusDev"><img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555" alt="LinkedIn></a>
@@ -45,7 +45,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![OSINT Suite Screen Shot][product-screenshot]](images/demo.png)
+[![OSINT Suite Screen Shot][product-screenshot]](https://github.com/PlutonusDev/OSINT-Suite/blob/master/misc/demo.png)
 
 Currently, OSINT Suite only has one command, `recon`, though plenty more will be added with time.
 
