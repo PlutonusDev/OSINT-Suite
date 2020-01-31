@@ -42,7 +42,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![OSINT Suite Screen Shot][product-screenshot]](https://github.com/PlutonusDev/OSINT-Suite/blob/master/misc/demo.png)
+[![OSINT Suite Screen Shot][https://github.com/PlutonusDev/OSINT-Suite/blob/master/misc/demo.png]](https://github.com/PlutonusDev/OSINT-Suite/blob/master/misc/demo.png)
 
 Currently, OSINT Suite only has one command, `recon`, though plenty more will be added with time.
 
