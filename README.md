@@ -9,19 +9,15 @@
   <p align="center">
 	<a href="https://github.com/PlutonusDev/OSINT-Suite/issues"><img src="https://img.shields.io/github/issues/PlutonusDev/OSINT-Suite.svg?style=flat-square" alt="Issues"></a>
 	<a href="https://github.com/PlutonusDev/OSINT-Suite/blob/master/LICENSE.md"><img src="https://img.shields.io/github/license/PlutonusDev/OSINT-Suite.svg?style=flat-square" alt="License"></a>
-	<a href="https://linkedin.com/in/PlutonusDev"><img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555" alt="LinkedIn></a>
 	<a href="ttps://github.com/PlutonusDev/OSINT-Suite/network/members"><img src="https://img.shields.io/github/forks/PlutonusDev/OSINT-Suite.svg?style=flat-square"></a>
   </p>
   
   <p align="center">
-    
     <br />
     <a href="https://github.com/PlutonusDev/OSINT-Suite"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    ·
     <a href="https://github.com/PlutonusDev/OSINT-Suite/issues">OSINT-Suitert Bug</a>
-    ·
     <a href="https://github.com/PlutonusDev/OSINT-Suite/issues">Request Feature</a>
   </p>
 </p>
