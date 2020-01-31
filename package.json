@@ -1,0 +1,30 @@
+{
+  "name": "osint-suite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PlutonusDev/OSINTSuite.git"
+  },
+  "author": "PlutonusDev",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/PlutonusDev/OSINTSuite/issues"
+  },
+  "homepage": "https://github.com/PlutonusDev/OSINTSuite#readme",
+  "dependencies": {
+    "clear": "^0.1.0",
+    "crypto": "^1.0.1",
+    "dns": "^0.2.2",
+    "inquirer": "^7.0.4",
+    "jssoup": "0.0.10",
+    "net": "^1.0.2",
+    "phone": "^2.4.3",
+    "snekfetch": "^4.0.4",
+    "vorpal": "^1.12.0"
+  }
+}
