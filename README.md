@@ -17,7 +17,8 @@
     <a href="https://github.com/PlutonusDev/OSINT-Suite"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/PlutonusDev/OSINT-Suite/issues">OSINT-Suitert Bug</a>
+    <a href="https://github.com/PlutonusDev/OSINT-Suite/issues">Report a Bug</a>
+	<br />
     <a href="https://github.com/PlutonusDev/OSINT-Suite/issues">Request Feature</a>
   </p>
 </p>
