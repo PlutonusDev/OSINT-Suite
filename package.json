@@ -1,5 +1,5 @@
 {
-  "name": "osint-suite",
+  "name": "ossuite",
   "version": "1.0.0",
   "description": "",
   "main": "src/app.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PlutonusDev/OSINTSuite.git"
+    "url": "git+https://github.com/PlutonusDev/OSINT-Suite.git"
   },
   "author": "PlutonusDev",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/PlutonusDev/OSINTSuite/issues"
+    "url": "https://github.com/PlutonusDev/OSINT-Suite/issues"
   },
-  "homepage": "https://github.com/PlutonusDev/OSINTSuite#readme",
+  "homepage": "https://github.com/PlutonusDev/OSINT-Suite#readme",
   "dependencies": {
     "clear": "^0.1.0",
     "crypto": "^1.0.1",

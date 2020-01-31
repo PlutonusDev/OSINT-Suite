@@ -12,7 +12,7 @@ module.exports = {
 				if(soup.find("pre")) {
 					res(soup.find("pre").nextElement._text)
 				} else {
-					res("Error: Cannot gather whois info.");
+					res("\nError: Cannot gather whois info.");
 				}
 			});
 		});
@@ -30,14 +30,7 @@ module.exports = {
 					scanner.analyzePort().then(()=>{
 						ok(vorp,`${port.name} [${port.number}]\t${scanner.result.status}`);
 						res();
-					});
-					/*get(`http${port.number==443||port.name.includes("SSL")?"s":""}://${domain}:${port.number==443?"":port.number}/`).then(resp => {
-						ok(vorp,`${chalk.green(" OPEN ")} [${port.number}] ${port.name}`);
-						res();
-					}).catch(() => {
-						ok(vorp,`${chalk.red("CLOSED")} [${port.number}] ${port.name}`);
-						res();
-					});*/
+					}).catch(e=>console.log(e));
 				}));
 			});
 			Promise.all(promises).then(() => res());
@@ -64,7 +57,7 @@ module.exports = {
 					});
 				}));
 			});
-			Promise.all(promises).then(() => res());
+			Promise.all(promises).then(() => res()).catch(()=>res());
 		});
 	}
 }

@@ -74,7 +74,7 @@ vorp
 					});
 					vorp.log();
 					log(vorp,`Contacting who.is...`);
-					await scanners.domain.whoisLookup(ip).then(async res => {
+					await scanners.domain.whoisLookup(resp.domain).then(async res => {
 						let whois = res.split("\n");
 						whois.shift();
 						whois.pop();
@@ -112,10 +112,14 @@ vorp
 
 clear();
 
-console.log(chalk.red("     ____  _____ _____   ________   ")+"_____       _ __");
-console.log(chalk.red("    / __ \\/ ___//  _/ | / /_  __/  ")+"/ ___/__  __(_) /____");
-console.log(chalk.red("   / / / /\\__ \\ / //  |/ / / /     ")+"\\__ \\/ / / / / __/ _ \\");
-console.log(chalk.red("  / /_/ /___/ // // /|  / / /     ")+"___/ / /_/ / / /_/  __/");
-console.log(chalk.red("  \\____//____/___/_/ |_/ /_/     ")+"/____/\\__,_/_/\\__/\\___/   v1.0.0\n\n");
+console.log("         ,");
+console.log("         |`-.__");
+console.log("         / ' _/"+chalk.red("    ____  _____ _____   ________   ")+"_____       _ __");
+console.log("        ****` "+chalk.red("    / __ \\/ ___//  _/ | / /_  __/  ")+"/ ___/__  __(_) /____");
+console.log("       /    }"+chalk.red("    / / / /\\__ \\ / //  |/ / / /     ")+"\\__ \\/ / / / / __/ _ \\");
+console.log("      /  \\ /"+chalk.red("    / /_/ /___/ // // /|  / / /     ")+"___/ / /_/ / / /_/  __/");
+console.log("  \ /`   \\\\\\"+chalk.red("     \\____//____/___/_/ |_/ /_/     ")+"/____/\\__,_/_/\\__/\\___/  v1.0.0");
+console.log("   `\    /_\\\\");
+console.log("    `~~~~~``~`\n\n");
 
 vorp.delimiter(chalk.magenta("  Suite>")).show();
